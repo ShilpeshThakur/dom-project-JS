@@ -17,11 +17,19 @@ let playGmae = true;
 
 
 function validateGuess(guess){
-    //
+    if(isNaN(guess)){
+        alert("Please Enter a valid Number")
+    } else if(guess < 1){
+        alert("Please Enter a valid Number")
+    } else if(guess > 100){
+        alert("Please Enter a valid Number")
+    } else{
+        checkGuess(guess)
+    }
 }
 
 function checkGuess(guess){
-    //
+    
 }
 
 function displayGuess(guess){
