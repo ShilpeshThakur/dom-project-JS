@@ -203,7 +203,8 @@
     "comments": "on",
     "strings": "on",
     "other": "on"
-  }
+  },
+  "liveServer.settings.port": 5501
   /**
    * Controls the delay in milliseconds after which quick suggestions will show up.
    * Defaults to 10 (ms).
